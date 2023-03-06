@@ -6,7 +6,7 @@ An amazing web application that shows a way to process a payment regarding the E
 
 - Open your terminal `:)`
 - Clone the repository
-  - `git clone https://github.com/nelsonsilvadev/eat-transactions.git`
+  - `git clone https://github.com/caffeinealgorithm/eat-transactions.git`
 - Enter to the repository directory
   - `cd eat-transactions`
 - Install all the dependencies
