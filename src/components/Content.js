@@ -101,6 +101,7 @@ class Content extends Component<State, *> {
       <Base>
         <Description />
         <br />
+
         {serviceStatus && (
           <div>
             <Input
@@ -109,6 +110,7 @@ class Content extends Component<State, *> {
               onChange={this.handleChange}
               required
             />
+
             <label htmlFor="hash">
               <span>
                 Time to eat your <strong>txHash</strong>...
@@ -116,7 +118,9 @@ class Content extends Component<State, *> {
             </label>
           </div>
         )}
+
         <br />
+
         {txHash && isValid && (
           <strong>Payment status: {this.getStatus()}</strong>
         )}
